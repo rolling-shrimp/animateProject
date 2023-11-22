@@ -1,0 +1,24 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "next build",
+    "dev": "next dev",
+    "start": "next start"
+  },
+  "dependencies": {
+    "animate.css": "^4.1.1",
+    "bootstrap": "^5.3.2",
+    "framer-motion": "^10.16.5",
+    "next": "latest",
+    "parallax-js": "^3.1.0",
+    "react": "18.2.0",
+    "react-bootstrap": "^2.9.1",
+    "react-dom": "18.2.0",
+    "react-parallax": "^3.5.1",
+    "react-scroll-parallax": "^3.4.3",
+    "simple-parallax-js": "^5.6.2"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

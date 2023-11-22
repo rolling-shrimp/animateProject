@@ -1,0 +1,101 @@
+.firstSection {
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+  z-index: 0;
+  height: 110vh;
+}
+
+.parallaxContainer {
+  height: 70%;
+  .parallaxRow {
+    height: 100%;
+    position: relative;
+    .parallaxLayer {
+      width: fit-content;
+      position: absolute;
+      top: 50%;
+      right: 40%;
+      padding: 1rem;
+      // background-color: rgba(0, 0, 0, 0.736);
+
+      // background-color: rgb(10, 10, 117);
+    }
+  }
+}
+
+.video {
+  animation: showup 1s linear;
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  height: 100%;
+}
+.h1 {
+  color: white !important;
+  font-family: Roboto;
+}
+.AboutH1 {
+  font-family: Roboto;
+}
+.ul {
+  padding: 1rem 0.5rem;
+  height: 10vh;
+}
+// .h1animate {
+//   &:hover {
+//     cursor: pointer;
+//     animation: headShake;
+//     animation-duration: 4s;
+//   }
+// }
+@keyframes turnBig {
+  from {
+    scale: 1;
+  }
+  to {
+    scale: 2;
+  }
+}
+.atag {
+  font-family: Roboto;
+}
+.about {
+  background-color: black;
+  min-height: 130vh;
+  position: relative;
+}
+.teams {
+  min-height: 140vh;
+  position: relative;
+  background-color: #dd4f0e;
+}
+.ABh1animate {
+  position: absolute;
+  top: 20%;
+  right: 48%;
+
+  // width: 30%;
+}
+.paraTeamOwnimage {
+  object-fit: cover;
+  object-position: bottom;
+}
+
+@keyframes showup {
+  from {
+    scale: 0;
+  }
+  to {
+    scale: 1;
+  }
+}
+.theTeampic {
+  animation: pulse 2s linear infinite;
+}
+.teamInfLeftImage {
+  background-image: url("/images/lbj2.jpg");
+  background-size: cover;
+  background-position: top;
+}
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap");
