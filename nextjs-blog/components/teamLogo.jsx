@@ -24,8 +24,9 @@ export default function TeamLogo() {
             // height: "fit-content",
           }}
         >
-          {TeamImages.map((item) => (
+          {TeamImages.map((item, index) => (
             <Col
+              key={index}
               className="d-flex flex-row align-items-center justify-content-center "
               style={{ width: "fit-content" }}
             >

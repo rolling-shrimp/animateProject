@@ -3,26 +3,26 @@ import Model_Nba from "./modalNBA";
 import Inf_team from "./Inf_team";
 export const sliding_Picture_params = createContext();
 import { Container, Row, Col } from "react-bootstrap";
-const Mimai = () => {
+const Nicks = () => {
   return (
     <>
       <Model_Nba
-        imageLeft={"/images/bron3.jpg"}
-        imageCenter={"/images/white.jpg"}
-        imageRight={"/images/dwade.jpg"}
-        leftSecond={"/images/hug.jpg"}
-        rightSecond={"/images/blueBulter.jpg"}
-        leftThird={"/images/miami-heat-big.jpg"}
-        rightThird={"/images/jimmy.jpg"}
-        bgColor={"#52050b"}
-        teamName={"miami heat"}
-        theId={"miami"}
+        imageLeft={"/images/31895f6bec7431f667d60e98e63ece67.jpg"}
+        imageCenter={"/images/New-York-Knicks-emblem.jpg"}
+        imageRight={"/images/MTkzOTEyNTU5MzI0MTEyMzIz.webp"}
+        leftSecond={"/images/1720956071.0.webp"}
+        rightSecond={"/images/0x0.webp"}
+        leftThird={"/images/zgkqm3oml1rq6fjv664d.jpg"}
+        rightThird={"/images/screenshot-2023-11-01-111209.png"}
+        bgColor={"#0a1163"}
+        teamName={"new york knicks"}
+        theId={"nikcs"}
       ></Model_Nba>
 
       <Inf_team
-        bgColor={"#52050b"}
-        IMAGEtop={"/images/nba_g_lebron15_576.jpg"}
-        IMAGE={"/images/lbj2.jpg"}
+        bgColor={"#0a1163"}
+        IMAGEtop={"/images/jeremy-lin-science-of-streaks-merrifield_hng5xq.jpg"}
+        IMAGE={"/images/jr-smith.webp"}
       >
         <p style={{ padding: "1rem" }}>
           As a matter of further perspective, the Heat have been outscored by an
@@ -52,4 +52,4 @@ const Mimai = () => {
   );
 };
 
-export default Mimai;
+export default Nicks;

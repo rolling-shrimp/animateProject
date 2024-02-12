@@ -18,10 +18,11 @@ const Model_Nba = ({
   rightSecond,
   leftThird,
   rightThird,
+  theId,
 }) => {
   return (
     <section
-      id="miami"
+      id={theId}
       className="d-flex flex-row align-items-start justify-content-center"
       style={{
         height: "250vh",

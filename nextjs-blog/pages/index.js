@@ -7,10 +7,12 @@ import About from "../components/About";
 import Teams from "../components/teams";
 import ShowLetgo from "../components/showLetgo";
 import Mimai from "../components/mimai";
+import Nicks from "../components/nicks";
 import Footer from "../components/footer";
 import { useState, useEffect, useCallback } from "react";
 
 export default function Home() {
+  console.log(ShowLetgo());
   const [background, setbackground] = useState("black"); //the background color of the whole website
   const [color, setcolor] = useState("white"); // the text color of the about section
   const [scrollPosition, setScrollPosition] = useState(0); // the scroll progress
@@ -73,6 +75,7 @@ export default function Home() {
       />
       <ShowLetgo />
       <Mimai></Mimai>
+      <Nicks></Nicks>
       <Footer></Footer>
     </div>
   );
