@@ -2,7 +2,7 @@ import React from "react";
 import { Parallax } from "react-scroll-parallax";
 import { Container, Row, Col } from "react-bootstrap";
 
-export default function LetsGoslogan({ children, thecss, translateX }) {
+const SloganLetGo = ({ children, thecss, translateX }) => {
   return (
     <Parallax style={thecss} translateX={translateX}>
       <Container>
@@ -27,4 +27,6 @@ export default function LetsGoslogan({ children, thecss, translateX }) {
       </Container>
     </Parallax>
   );
-}
+};
+
+export default SloganLetGo;

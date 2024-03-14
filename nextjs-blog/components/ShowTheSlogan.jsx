@@ -1,8 +1,8 @@
 import React from "react";
 import Letgo_video from "./Letgo_video";
-import LetsGoslogan from "./LetsGoslogan";
+import SloganLetGo from "./SloganLetGo";
 
-export default function ShowLetgo() {
+const ShowTheSlogan = () => {
   return (
     <section
       style={{
@@ -15,7 +15,7 @@ export default function ShowLetgo() {
     >
       <Letgo_video />
 
-      <LetsGoslogan
+      <SloganLetGo
         thecss={{
           position: "absolute",
           top: "50%",
@@ -27,8 +27,8 @@ export default function ShowLetgo() {
         translateX={[-50, 70]}
       >
         Let's
-      </LetsGoslogan>
-      <LetsGoslogan
+      </SloganLetGo>
+      <SloganLetGo
         thecss={{
           position: "absolute",
           top: "50%",
@@ -40,7 +40,9 @@ export default function ShowLetgo() {
         translateX={[50, -70]}
       >
         Go!!!
-      </LetsGoslogan>
+      </SloganLetGo>
     </section>
   );
-}
+};
+
+export default ShowTheSlogan;
