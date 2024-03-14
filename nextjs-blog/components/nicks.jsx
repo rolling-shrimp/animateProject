@@ -1,8 +1,8 @@
 import React, { createContext, useContext } from "react";
 import Model_Nba from "./modalNBA";
-import Inf_team from "./Inf_team";
+import Teaminformation from "./Teaminformation";
 export const sliding_Picture_params = createContext();
-import { Container, Row, Col } from "react-bootstrap";
+
 const Nicks = () => {
   return (
     <>
@@ -19,7 +19,7 @@ const Nicks = () => {
         theId={"nikcs"}
       ></Model_Nba>
 
-      <Inf_team
+      <Teaminformation
         bgColor={"#0a1163"}
         IMAGEtop={"/images/jeremy-lin-science-of-streaks-merrifield_hng5xq.jpg"}
         IMAGE={"/images/jr-smith.webp"}
@@ -47,7 +47,7 @@ const Nicks = () => {
           allowed the Heat to delve more into remedying their late offensive
           struggles.
         </p>
-      </Inf_team>
+      </Teaminformation>
     </>
   );
 };
