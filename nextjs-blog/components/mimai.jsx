@@ -1,6 +1,6 @@
 import React, { createContext } from "react";
 import Model_Nba from "./modalNBA";
-import Inf_team from "./Inf_team";
+import Teaminformation from "./Teaminformation";
 export const sliding_Picture_params = createContext();
 const Mimai = () => {
   return (
@@ -18,7 +18,7 @@ const Mimai = () => {
         theId={"miami"}
       ></Model_Nba>
 
-      <Inf_team
+      <Teaminformation
         bgColor={"#52050b"}
         IMAGEtop={"/images/nba_g_lebron15_576.jpg"}
         IMAGE={"/images/lbj2.jpg"}
@@ -46,7 +46,7 @@ const Mimai = () => {
           allowed the Heat to delve more into remedying their late offensive
           struggles.
         </p>
-      </Inf_team>
+      </Teaminformation>
     </>
   );
 };

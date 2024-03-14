@@ -1,8 +1,8 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Image from "next/image";
-import { useInView, motion } from "framer-motion";
-const Inf_team = ({ children, bgColor, IMAGE, IMAGEtop }) => {
+import { motion } from "framer-motion";
+const Teaminformation = ({ children, bgColor, IMAGE, IMAGEtop }) => {
   const cardVariants = {
     offscreen: {
       x: 300,
@@ -88,4 +88,4 @@ const Inf_team = ({ children, bgColor, IMAGE, IMAGEtop }) => {
   );
 };
 
-export default Inf_team;
+export default Teaminformation;

@@ -1,21 +1,19 @@
-import React, { useState, useEffect, useCallback, useRef } from "react";
+import React, { useRef } from "react";
 import Link from "next/link";
 import style from "../styles/animation.module.css";
 import { motion, useInView } from "framer-motion";
 
 import { Container, Row, Col } from "react-bootstrap";
-import { Parallax } from "react-scroll-parallax";
-import { ParallaxBanner } from "react-scroll-parallax";
 
 const About = ({ background, color }) => {
   // const [background, setbackground] = useState("black");
   // const [color, setcolor] = useState("white");
-  const [scrollPosition, setScrollPosition] = useState(0);
-  const ref = useRef(null);
+  // const [scrollPosition, setScrollPosition] = useState(0);
+  // const ref = useRef(null);
   const ptagref = useRef(null);
   const View = useInView(ptagref, { once: true });
 
-  const inView = useInView(ref, { once: true });
+  // const inView = useInView(ref, { once: true });
 
   return (
     <section
