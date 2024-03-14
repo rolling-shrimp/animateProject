@@ -3,8 +3,7 @@ import React from "react";
 
 import { Parallax } from "react-scroll-parallax";
 import { Container, Row, Col } from "react-bootstrap";
-
-export default function Letgo_video() {
+const ViedoLetGo = () => {
   return (
     <Parallax startScroll={90} scale={[0.5, 3, easeIn]}>
       <Container style={{ height: "70vh" }}>
@@ -28,4 +27,6 @@ export default function Letgo_video() {
       </Container>
     </Parallax>
   );
-}
+};
+
+export default ViedoLetGo;

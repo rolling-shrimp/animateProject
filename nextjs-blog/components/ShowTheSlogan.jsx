@@ -1,6 +1,6 @@
 import React from "react";
-import Letgo_video from "./Letgo_video";
 import SloganLetGo from "./SloganLetGo";
+import ViedoLetGo from "./ViedoLetGo";
 
 const ShowTheSlogan = () => {
   return (
@@ -13,7 +13,7 @@ const ShowTheSlogan = () => {
       }}
       className="d-flex flex-column justify-content-center align-items-center"
     >
-      <Letgo_video />
+      <ViedoLetGo />
 
       <SloganLetGo
         thecss={{
