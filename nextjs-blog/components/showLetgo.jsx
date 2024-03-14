@@ -1,7 +1,6 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
 import Letgo_video from "./Letgo_video";
-import LetsGoslogan from "./letsGoslogan";
+import LetsGoslogan from "./LetsGoslogan";
 
 export default function ShowLetgo() {
   return (

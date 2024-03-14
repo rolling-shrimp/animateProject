@@ -1,8 +1,7 @@
-import React, { createContext, useContext } from "react";
+import React, { createContext } from "react";
 import Model_Nba from "./modalNBA";
 import Inf_team from "./Inf_team";
 export const sliding_Picture_params = createContext();
-import { Container, Row, Col } from "react-bootstrap";
 const Mimai = () => {
   return (
     <>

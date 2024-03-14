@@ -1,7 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Image from "next/image";
-import styles from "../styles/animation.module.css";
 import { useInView, motion } from "framer-motion";
 const Inf_team = ({ children, bgColor, IMAGE, IMAGEtop }) => {
   const cardVariants = {

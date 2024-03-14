@@ -1,7 +1,4 @@
 import Head from "next/head";
-import Link from "next/link";
-import Image from "next/image";
-import styles from "../styles/Home.module.css";
 import Hompage_Animate from "../components/homepage_animate";
 import About from "../components/About";
 import Teams from "../components/teams";
